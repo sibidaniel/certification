@@ -1,0 +1,7 @@
+Lifecycle
+
+arguments:
+- create_before_destroy: new replacement object is created first prior the object is destoryed
+- prevent_destroy: terraform to reject with an error any plan that would destroy the infrastructure object associated with the resource
+- ignore-changes: ignore certain changes to the live resource from console/ manual made changes
+- replace-triggered-by: replaces the resource when any of the referenced items change

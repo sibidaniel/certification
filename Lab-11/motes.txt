@@ -1,0 +1,4 @@
+S3 does not support tfstate locking but with combination of dynamoDB table we can achieve this
+
+Table name: terraform-state-locking
+Partition key: LockID

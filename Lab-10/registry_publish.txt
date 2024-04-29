@@ -1,0 +1,32 @@
+Requirements to publish to Terraform Registry:
+1: Github - module must be on Github publis repo
+2: Named - must be named teraform-<PROVIDER>-<NAME>
+3: Repository description - should have short descriptionon the module
+4: Standard module structure -  module must adhere to standard module structure
+5: x.y.z tags for releases - Release tags must have semantic versions which can optionally be prefixed with 'v'.
+(registry uses tags)
+
+
+
+modules atleast have below structure:
+
+README.md
+main.tf
+variables.tf
+outputs.tf
+
+
+Terraform Workspace:
+
+terraform workspace new prod
+terraform workspace delete prod
+terraform workspace select prod
+
+
+never commit tfstate file in Github also secrets
+
+module sources
+we can have :
+git sources
+ex: source = "git::https://example.com/vpc.git?ref=v1.2.0"
+ref argument can be branch or tags

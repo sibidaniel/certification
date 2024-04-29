@@ -1,0 +1,7 @@
+Two types of Provisioners:
+
+creation-type-provisioner
+destroy-time-provisioner
+
+
+

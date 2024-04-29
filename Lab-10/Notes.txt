@@ -1,0 +1,6 @@
+DRY principle
+
+Dont Repeat Yourself
+
+locals helps in locking
+the value within a module giving no chance of overiding once the module is used by user

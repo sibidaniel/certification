@@ -1,0 +1,12 @@
+In order to define env value
+TF_VAR_<variable_name>
+
+like in terminal
+
+export TF_VAR_instanceType="t2.micro"
+
+
+precedence of variables
+
+env < terraform.tfvars < terraform.tfvars.json < *.auto.terraform.tfvars / *.auto.terraform.tfvars.json < -var / -var-file in command line
+
